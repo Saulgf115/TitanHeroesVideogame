@@ -49,7 +49,7 @@ public class PlayerAttackFXController : MonoBehaviour
     {
         if (is_Evil_King || is_Lei_Zhengzi)
         {
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_2.position, transform.rotation);
         }
 
         if (is_BadeerAngel)
@@ -68,11 +68,11 @@ public class PlayerAttackFXController : MonoBehaviour
 
         if(is_Dark_Sorcerer)
         {
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_2.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_1.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_1.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_2.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_2.position, transform.rotation);
         }
 
     }
@@ -81,18 +81,18 @@ public class PlayerAttackFXController : MonoBehaviour
     {
         if (is_Evil_King || is_Lei_Zhengzi || is_BadeerAngel || is_Lian_You)
         {
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_3.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_3.position, transform.rotation);
         }
 
        
 
         if (is_Dark_Sorcerer)
         {
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_2.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_2.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_1.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_1.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_2.position, Quaternion.identity);
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_2.position, transform.rotation);
         }
 
     }

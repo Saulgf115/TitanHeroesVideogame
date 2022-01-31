@@ -449,5 +449,66 @@ PrefabInstance:
       propertyPath: m_Name
       value: leizhengzi_skn1
       objectReference: {fileID: 0}
+    - target: {fileID: 2378691705387818673, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
+--- !u!1001 &3525599335257008510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418246682289, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733819418247105169, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
+      propertyPath: m_Name
+      value: lianyou
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 559cb3a46224d1d44b0e473ef9ded2c3, type: 3}
