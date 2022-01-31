@@ -214,7 +214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -394,60 +394,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &93735382680196479
+--- !u!1001 &2378691705188593418
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 93735380889322768, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
-      propertyPath: m_Name
-      value: Huodeer Dark Sorcerer
-      objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.2431164
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.8984499
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 93735380889426224, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+    - target: {fileID: 2378691705387385489, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2378691705387818673, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
+      propertyPath: m_Name
+      value: leizhengzi_skn1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8f770e746f6965e428d5fc70b44717ac, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cb35de2a9baa7634a85cc1326981d97b, type: 3}
