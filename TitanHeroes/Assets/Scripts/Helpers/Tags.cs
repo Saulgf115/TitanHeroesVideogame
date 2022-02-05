@@ -34,3 +34,19 @@ public class AnimationTags
     public const string IDLE_ANIMATION = "Idle";
 
 }
+
+public class TagManager
+{
+    public const string PLAYER_TAG = "Player";
+
+    public const string ENEMY_TAG = "Enemy";
+
+    public const string BOSS_TAG = "Boss";
+
+}
+
+public class SceneNames
+{
+    public const string MAIN_MENU = "MainMenu";
+    public const string GAMEPLAY = "Gameplay";
+}

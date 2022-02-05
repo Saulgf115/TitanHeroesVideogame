@@ -57,4 +57,9 @@ public class CharacterAnimation : MonoBehaviour
     {
         animator.SetTrigger(AnimationTags.DEAD_TRIGGER);
     }
+
+    public void StopAnimation()
+    {
+        animator.StopPlayback();
+    }
 }
