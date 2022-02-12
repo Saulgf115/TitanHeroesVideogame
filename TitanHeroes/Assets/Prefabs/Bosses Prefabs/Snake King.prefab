@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 337709594929672493}
   - component: {fileID: 337709594929672492}
   - component: {fileID: 1857044549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Snake King
   m_TagString: Untagged
   m_Icon: {fileID: 0}

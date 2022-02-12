@@ -1303,7 +1303,7 @@ GameObject:
   - component: {fileID: 8334359491266904853}
   - component: {fileID: 8334359491266904852}
   - component: {fileID: 8334359491266904855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cerberus
   m_TagString: Untagged
   m_Icon: {fileID: 0}

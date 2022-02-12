@@ -11,7 +11,7 @@ public class PlayerAttackFXController : MonoBehaviour
 
     public Transform specialAttack_Position_1, specialAttack_Position_2, specialAttack_Position_3,normalAttack_Position;
 
-
+    [HideInInspector]
     public Transform specialAttack_Position_2_1, specialAttack_Position_2_2;
 
     public bool is_Lei_Zhengzi;
@@ -68,11 +68,11 @@ public class PlayerAttackFXController : MonoBehaviour
 
         if(is_Dark_Sorcerer)
         {
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_1.position, transform.rotation);
+
             Instantiate(specialAttack_Preab_2, specialAttack_Position_2.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_1.position, transform.rotation);
-
-            Instantiate(specialAttack_Preab_2, specialAttack_Position_2_2.position, transform.rotation);
+            Instantiate(specialAttack_Preab_2, specialAttack_Position_3.position, transform.rotation);
         }
 
     }
@@ -88,11 +88,11 @@ public class PlayerAttackFXController : MonoBehaviour
 
         if (is_Dark_Sorcerer)
         {
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_1.position, transform.rotation);
+
             Instantiate(specialAttack_Preab_3, specialAttack_Position_2.position, transform.rotation);
 
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_1.position, transform.rotation);
-
-            Instantiate(specialAttack_Preab_3, specialAttack_Position_2_2.position, transform.rotation);
+            Instantiate(specialAttack_Preab_3, specialAttack_Position_3.position, transform.rotation);
         }
 
     }
