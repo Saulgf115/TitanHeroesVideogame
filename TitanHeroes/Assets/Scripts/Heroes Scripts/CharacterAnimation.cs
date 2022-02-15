@@ -62,4 +62,9 @@ public class CharacterAnimation : MonoBehaviour
     {
         animator.StopPlayback();
     }
+
+    public void BackToIdle()
+    {
+        animator.Play(AnimationTags.IDLE_ANIMATION);
+    }
 }

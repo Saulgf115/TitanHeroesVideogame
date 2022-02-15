@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 8277082636753133004}
   m_Layer: 8
   m_Name: Lava Golem
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

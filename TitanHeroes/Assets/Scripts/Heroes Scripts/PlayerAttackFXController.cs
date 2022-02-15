@@ -100,7 +100,8 @@ public class PlayerAttackFXController : MonoBehaviour
 
     void Spawn_NormalAttackEffect()
     {
-        Instantiate(normalAttack, normalAttack_Position.position, Quaternion.identity);
+        //Instantiate(normalAttack, normalAttack_Position.position, Quaternion.identity);
+        Instantiate(normalAttack, normalAttack_Position.position, transform.rotation);
     }
 
 

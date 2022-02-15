@@ -9526,6 +9526,7 @@ GameObject:
   - component: {fileID: 82238527204260948}
   - component: {fileID: -2480388761440692869}
   - component: {fileID: 8118473558123747862}
+  - component: {fileID: 3067231974354730565}
   m_Layer: 0
   m_Name: Dark Sorcerer Special Attack 2
   m_TagString: Untagged
@@ -9700,6 +9701,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   moveForwardAndBackward: 0
+--- !u!114 &3067231974354730565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820529090623768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23362339869db8d4b84d5fe4803e4447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  radius: 3
+  damage: 1
+  dealMultipleDamage: 1
+  disable_Script: 1
+  detectCollisionAfterDelay: 0
+  delayTime: 1
 --- !u!1 &1830021334296738
 GameObject:
   m_ObjectHideFlags: 0

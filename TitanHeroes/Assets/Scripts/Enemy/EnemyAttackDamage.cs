@@ -25,7 +25,9 @@ public class EnemyAttackDamage : MonoBehaviour
 
         if(hit.Length > 0)
         {
-            Debug.Log("Deal daamge player");
+            //Debug.Log("Deal daamge player");
+
+            hit[0].GetComponent<HealthScript>().ApplyDamage(damage);
 
             gameObject.SetActive(false);
         }

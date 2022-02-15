@@ -23,7 +23,11 @@ public class PlayerAttackDamage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(detectCollisionAfterDelay)
+        {
+            canDetectCollision = false;
+            StartCoroutine(CollisionAfterDelay());
+        }
     }
 
     // Update is called once per frame
@@ -45,12 +49,14 @@ public class PlayerAttackDamage : MonoBehaviour
             {
                 for(int i=0;i<hit.Length;i++)
                 {
-                    print("DEAL DAMAGE MULTIPLE TIMES");
+                    //print("DEAL DAMAGE MULTIPLE TIMES");
+                    hit[i].GetComponent<HealthScript>().ApplyDamage(damage);
                 }
             }
             else
             {
-                print("DEAL DAMAGE ONCE");
+                //print("DEAL DAMAGE ONCE");
+                hit[0].GetComponent<HealthScript>().ApplyDamage(damage);
             }
 
             if(disable_Script)
@@ -62,5 +68,17 @@ public class PlayerAttackDamage : MonoBehaviour
                 gameObject.SetActive(false);
             }
         }
+    }
+
+    IEnumerator CollisionAfterDelay()
+    {
+        yield return new WaitForSeconds(delayTime);
+
+        canDetectCollision = true;
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(transform.position,radius);
     }
 }
