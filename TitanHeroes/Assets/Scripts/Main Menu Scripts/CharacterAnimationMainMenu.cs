@@ -26,4 +26,14 @@ public class CharacterAnimationMainMenu : MonoBehaviour
     {
         MainMenuAnimationsController.instance.FloorSlideIn();
     }
+
+    void ThunderEffect()
+    {
+        MainMenuAnimationsController.instance.ActivateThunderFX();
+    }
+
+    void HeroAppearSound()
+    {
+        MainMenuAnimationsController.instance.PlayerHeroAppearSound();
+    }
 }
