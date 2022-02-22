@@ -570,13 +570,14 @@ GameObject:
   - component: {fileID: 8277082636753133006}
   - component: {fileID: 8277082636753133005}
   - component: {fileID: 8277082636753133004}
+  - component: {fileID: 818990671}
   m_Layer: 8
   m_Name: Lava Golem
   m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8277082636753520356
 Transform:
   m_ObjectHideFlags: 0
@@ -675,6 +676,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &818990671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8277082636753099460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f0b64e87de19645bb0915ec96e4a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  attackDistance: 2
+  chasePlayerAfterAttackDistance: 1
+  retreatDistanceRadius: 8
 --- !u!1 &8277082636753099462
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,8 @@ public class PlayerAttackInput : MonoBehaviour
     void Awake()
     {
         playerAnimation = GetComponent<CharacterAnimation>();
+
+        
     }
 
     // Update is called once per frame
