@@ -22,7 +22,7 @@ public class GameplayController : MonoBehaviour
 
     private void Start()
     {
-        SpawnPlayer();
+        //SpawnPlayer();
     }
 
     void MakeSingleton()

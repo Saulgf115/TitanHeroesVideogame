@@ -24,8 +24,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        SetMovementScreen();
+        //SetMovementScreen();
     }
+
+    private void OnEnable()
+    {
+        GMCameraAnimationController.screenMovement += SetMovementScreen;
+    }
+
+    private void OnDisable()
+    {
+        GMCameraAnimationController.screenMovement -= SetMovementScreen;
+    }
+
 
     // Update is called once per frame
     void Update()

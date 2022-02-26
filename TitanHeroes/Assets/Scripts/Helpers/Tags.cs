@@ -25,7 +25,7 @@ public class AnimationTags
     public const string DEAD_TRIGGER = "Dead";
 
     public const string SLIDE_IN_ANIMATION = "SlideIn";
-    public const string CAMERA_2_ANIMATION = "Camera2";
+    public const string CAMERA_2_ANIMATION = "Camera2Anim";
 
     public const string COUNTDOWN_1_ANIMATION = "Countdown1";
     public const string COUNTDOWN_2_ANIMATION = "Countdown2";
